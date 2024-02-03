@@ -1,0 +1,10 @@
+https://api.openweathermap.org/data/2.5/onecall?lat=30.2711286&lon=-97.74369957&appid=ec83f46dfbe12662beeee4a7ae75a168
+
+
+https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&appid=ec83f46dfbe12662beeee4a7ae75a168
+
+https://api.openweathermap.org/data/2.5/weather?lat=77.22&lon=28.7&appid=ec83f46dfbe12662beeee4a7ae75a168
+
+https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}
+
+https://api.openweathermap.org/data/2.5/weather?zip=78750,us&appid=ec83f46dfbe12662beeee4a7ae75a168

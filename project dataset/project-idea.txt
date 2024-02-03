@@ -1,0 +1,54 @@
+csv file location:
+
+https://www.kaggle.com/datasets/grubenm/austin-weather/
+https://www.kaggle.com/datasets/grubenm/austin-weather/download?datasetVersionNumber=3
+
+Weather API call:
+https://openweathermap.org/api
+key is: appid=ec83f46dfbe12662beeee4a7ae75a168
+see test-api-call.txt in DSC520 folder
+
+
+backup: air quality
+https://www.iqair.com/air-pollution-data-api
+
+web-data (austin zip code, airport zip code is 78719):
+https://www.zip-codes.com/city/tx-austin.asp#zipcodes
+-------------------------
+new choice:
+API bible verse
+https://bible-api.com/
+
+website:
+https://simple.wikipedia.org/wiki/Books_of_the_Bible
+king James Version:
+https://en.wikipedia.org/wiki/List_of_books_of_the_King_James_Version
+-------------------------
+new new choice
+CSV
+flight data
+https://www.kaggle.com/datasets/mrferozi/flight-delays
+
+Web table:
+web-data (austin zip code, airport zip code is 78719):
+https://www.zip-codes.com/city/tx-austin.asp#zipcodes
+
+Texas airport:
+https://en.wikipedia.org/wiki/List_of_airports_in_Texas
+
+API:
+open weather map
+
+1. from wiki website, using city code to airport code, using city code find out weather for the airport, then use airport code to find out airline flying on that day in this airport, 
+which need to convert inquiry time to date using strftime() method. 
+*********
+import datetime
+import calendar
+ 
+def findDay(date):
+    born = datetime.datetime.strptime(date, '%d %m %Y').weekday()
+    return (calendar.day_name[born])
+ 
+# Driver program
+date = '03 02 2019'
+print(findDay(date))
